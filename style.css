@@ -10,7 +10,7 @@ body {
     line-height: 1.5;
     margin: 0;
     background-color: #6a3c1b;
-    background-image: url('giraffe-bg.jpg');
+    background-image: url('images/giraffe-bg.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top center;
@@ -36,9 +36,57 @@ main {
 /* ============= Student Styles ==============*/
 /* ========= In class ============*/
 
+body {
+  font-family: "Lora", system-ui, sans-serif;
+  text-align: center; 
+}
+img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: block;
+}
 
 
+#logo {
+  width: 220px;
+  height: auto;
+  padding: 0;
+  margin: 0 auto 12px;
+}
+
+.caption {
+  font-size: 0.85rem;
+  margin: 10px 0 10px 0;
+}
 
 
+.photo-card {
+  margin: 0 0 22px 0;
+}
 
-/* ======= Practice Session ======*/
+.vote-icons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 6px 0 0 0;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  padding: 0;
+}
+
+.vote-title {
+  color: #b14a00;
+  margin: 18px 0 8px 0;
+}
+
+.happy-icon {
+  width: 140px;
+  height: auto;
+  margin: 12px auto 14px;
+  padding: 0;
+}
